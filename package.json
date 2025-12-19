@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
+  "workspaces": [
+    "samples/*"
+  ],
   "keywords": [],
   "author": "",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "tsx": "4.21.0"
+  }
 }
